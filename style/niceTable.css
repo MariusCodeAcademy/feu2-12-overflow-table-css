@@ -101,6 +101,7 @@ desineje #c550c0
   /* display: block; */
   transform: scaleY(1) translateY(0);
   opacity: 1;
+  visibility: visible;
 }
 
 .subMenu {
@@ -108,8 +109,9 @@ desineje #c550c0
   transform: scaleY(0);
   transform-origin: top;
   /* transform: translateX(500px); */
-  /* opacity: 0; */
-  transition: transform 0.2s, opacity 0.4s;
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 1.2s, opacity 2.4s;
   position: absolute;
   min-width: 140px;
   left: 0;
