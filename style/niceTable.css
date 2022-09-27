@@ -1,0 +1,6 @@
+@import 'reset.css';
+
+.tableContainer {
+  min-height: 100vh;
+  background-color: rgb(233, 173, 173);
+}

@@ -5,3 +5,35 @@
   grid-template-columns: auto 30%;
   gap: 20px;
 }
+
+aside.card {
+  background-color: #333;
+  color: snow;
+  height: 300px;
+  /* overflow-y: scroll;
+  overflow-x: hidden; */
+}
+
+body {
+  /* sustabdo dokumento scrollinima */
+  /* overflow: hidden; */
+}
+
+h1 {
+  position: relative;
+  display: inline-block;
+}
+h1::before {
+  content: 'sss';
+  position: absolute;
+  color: tomato;
+  font-size: large;
+  display: block;
+  top: 100%;
+  left: 50%;
+}
+
+.list ::marker {
+  color: coral;
+  font-size: 23px;
+}
