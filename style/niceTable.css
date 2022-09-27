@@ -2,7 +2,7 @@
 
 .tableContainer {
   min-height: 100vh;
-  background-color: rgb(233, 173, 173);
+  background-image: linear-gradient(to top right, #6156cc, #c550c0);
   display: grid;
   place-items: center;
 }
@@ -10,6 +10,9 @@
 .mainTable {
   width: 950px;
   border-collapse: collapse;
+  border-radius: 15px;
+  /* reikalinga kad suveiktu uzapvalinimas */
+  overflow: hidden;
 }
 
 thead th {
@@ -25,12 +28,22 @@ thead th {
 }
 .mainTable tbody tr {
   background-color: white;
+  transition: all 0.2s;
 }
 .mainTable tbody tr:nth-child(even) {
   background-color: rgb(233, 233, 233);
 }
 
+.mainTable tbody tr:hover {
+  background-color: rgb(141, 141, 141);
+}
+
+.mainTable tbody tr:hover td {
+  color: white;
+}
+
 /* 
 kaireje yra #c550c0
-desineje #c550c0   
+desineje #c550c0
+
 */
