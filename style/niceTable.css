@@ -18,3 +18,19 @@ thead th {
   padding: 0.5em 0;
   font-weight: normal;
 }
+
+.mainTable td {
+  padding: 0.5em 1.5em;
+  color: gray;
+}
+.mainTable tbody tr {
+  background-color: white;
+}
+.mainTable tbody tr:nth-child(even) {
+  background-color: rgb(233, 233, 233);
+}
+
+/* 
+kaireje yra #c550c0
+desineje #c550c0   
+*/
