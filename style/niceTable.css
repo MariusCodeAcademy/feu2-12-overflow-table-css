@@ -3,4 +3,18 @@
 .tableContainer {
   min-height: 100vh;
   background-color: rgb(233, 173, 173);
+  display: grid;
+  place-items: center;
+}
+
+.mainTable {
+  width: 950px;
+  border-collapse: collapse;
+}
+
+thead th {
+  color: #fff;
+  background-color: #333;
+  padding: 0.5em 0;
+  font-weight: normal;
 }
